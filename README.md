@@ -63,19 +63,3 @@ AI Workout Planner is a personalized workout plan generator that creates custom 
 3. Click on **Generate Workout Plan** to receive your custom workout plan.
 4. View the plan with the suggested exercises based on your inputs.
 
----
-
-## Project Structure
-
-```plaintext
-ai-workout-planner/
-├── app.py              # Main Flask application file
-├── model.py            # Contains logic for workout plan generation
-├── data/
-│   └── exercises.csv   # Dataset with exercises and their attributes
-├── templates/
-│   └── index.html      # HTML form to take user inputs
-│   └── plan.html       # Displays generated workout plan
-├── static/
-│   └── styles.css      # Custom styles for the app (optional)
-├── requirements.txt    # List of dependencies (Flask, pandas, etc.)
