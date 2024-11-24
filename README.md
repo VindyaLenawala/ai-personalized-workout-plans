@@ -1,37 +1,37 @@
 # Workout Planner
 
 ## Overview
-Workout Planner is a personalized workout plan generator that creates custom fitness routines based on user inputs. By selecting their fitness goals, available equipment, and physical condition, users can receive a tailored workout plan designed to help them achieve their fitness objectives. This project leverages **Flask** for the web framework and **Pandas** for data processing.
+Workout Planner is a personalized workout plan generator that creates custom fitness routines based on user inputs such as fitness goals, available equipment, and physical condition. By selecting these parameters, users receive a tailored workout plan to help them achieve their fitness objectives. The app uses **Flask** for the web framework and **Pandas** for processing exercise data.
 
 ---
 
 ## Features
 
-- **Personalized Workout Plans**: Generate a workout plan based on your fitness goal, available equipment, and current physical condition.
-- **Easy to Use**: A simple web interface that allows users to input their details and receive a workout plan in seconds.
-- **Customizable**: Designed to allow you to easily add more exercises or expand the dataset to suit different goals or conditions.
-- **Lightweight and Fast**: Built with Flask for efficient web handling and Pandas for fast data processing.
+- **Personalized Workout Plans**: Generate a customized workout plan based on your fitness goal, available equipment, and current physical condition.
+- **Easy-to-Use Interface**: A user-friendly web interface for submitting details and receiving a tailored workout plan.
+- **Customizable**: The dataset can easily be expanded with more exercises to support different goals and conditions.
+- **Fast & Lightweight**: Built with Flask to handle requests efficiently and Pandas to process data quickly.
 
 ---
 
 ## Technologies Used
 
-- **Flask**: Lightweight Python web framework used to handle HTTP requests and render templates.
-- **Pandas**: Data manipulation library used to process the exercises dataset and filter based on user input.
-- **HTML/CSS**: For the basic structure and design of the user interface, using Bootstrap for responsive styling.
-- **JavaScript**: Used to enhance form validation and provide a loading spinner while generating the plan.
+- **Flask**: A lightweight Python web framework used to handle HTTP requests and render HTML templates.
+- **Pandas**: A Python library used to filter and manipulate exercise data based on user input.
+- **HTML/CSS**: For building the basic structure and design of the user interface, utilizing **Bootstrap** for responsive design.
+- **JavaScript**: Used for form validation and showing a loading spinner while generating the workout plan.
 
 ---
 
 ## How to Run the Application
 
-1. **Clone the repository** to your local machine:
+1. **Clone the repository**:
     ```bash
     git clone https://github.com/VindyaLenawala/ai-personalized-workout-plans.git
     cd ai-personalized-workout-plans
     ```
 
-2. **Set up a virtual environment** and activate it:
+2. **Set up a virtual environment**:
     - On Windows:
         ```bash
         python -m venv venv
@@ -52,14 +52,24 @@ Workout Planner is a personalized workout plan generator that creates custom fit
     ```bash
     python app.py
     ```
-    The app will be available at [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
+    The app will be accessible at [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
 
 ---
 
 ## How to Use
 
-1. Open the app in your browser.
-2. Fill out the form with your **fitness goal**, **available equipment**, and **physical condition**.
-3. Click on **Generate Workout Plan** to receive your custom workout plan.
-4. View the plan with the suggested exercises based on your inputs.
+1. **Input your details**:
+    - **Fitness Goal**: Select from options like "Lose Weight", "Build Muscle", or "General Fitness".
+    - **Available Equipment**: Specify the equipment available, such as "No Equipment" or "Dumbbells".
+    - **Physical Condition**: Choose from conditions like "Beginner", "Intermediate", or "Advanced".
 
+2. **Generate Workout Plan**:
+    - Once you submit the form, a personalized workout plan will be displayed based on your input.
+
+---
+
+## Future Improvements
+
+- **Expand the exercise dataset**: Add more exercises to provide more variety and coverage.
+- **AI/ML Integration**: Implement AI algorithms to suggest workout plans dynamically based on user history and preferences.
+- **User Profiles**: Allow users to save their workout plans and track progress over time.
