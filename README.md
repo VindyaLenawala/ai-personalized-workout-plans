@@ -1,7 +1,7 @@
-# AI Workout Planner
+# Workout Planner
 
 ## Overview
-AI Workout Planner is a personalized workout plan generator that creates custom fitness routines based on user inputs. By selecting their fitness goals, available equipment, and physical condition, users can receive a tailored workout plan designed to help them achieve their fitness objectives. This project leverages **Flask** for the web framework and **Pandas** for data processing.
+Workout Planner is a personalized workout plan generator that creates custom fitness routines based on user inputs. By selecting their fitness goals, available equipment, and physical condition, users can receive a tailored workout plan designed to help them achieve their fitness objectives. This project leverages **Flask** for the web framework and **Pandas** for data processing.
 
 ---
 
